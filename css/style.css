@@ -68,6 +68,7 @@ font-size: 14px;
 text-transform: uppercase;
 
 margin-bottom: 30px;
+font-family: 'Playfair Display', serif;
 }
 .photodiary h1{
     
@@ -80,6 +81,8 @@ margin-bottom: 20px;
 .photodiary p{
     color: #626262;
     margin-bottom: 30px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
 }
 /*photodiary css start here*/
 
@@ -89,7 +92,145 @@ margin-bottom: 20px;
     width: 80%;
     margin: auto;
 }
-.lifestyle lifestyle_one{
-    background-color: yellow;
+.lifestyle .lifestyle-part, .lifestyle-2nd-part{
+    overflow: hidden;
+    margin-bottom: 100px;
 }
+.lifestyle .lifestyle_one{
+    width: 45%;
+   float: left;
+}
+.lifestyle .lifestyle_two{
+    width: 45%;
+   float: right;
+}
+
+.lifestyle_one img, .lifestyle_two img{
+    width: 100%;
+
+}
+.lifestyle_one h6, .lifestyle_two h6{
+    
+color: #b4ad9e;
+    
+font-size: 14px;
+    
+text-transform: uppercase;
+    
+margin: 20px 0;
+font-family: 'Playfair Display', serif;
+}
+.lifestyle_one h1, .lifestyle_two h1{
+    
+font-size: 30px;
+    
+text-transform: capitalize;
+    
+color: #626262;
+    
+margin-bottom: 15px;
+font-family: 'Playfair Display', serif;
+}
+.lifestyle_one p, .lifestyle_two p{
+    
+font-size: 14px;
+    
+color: #626262;
+    
+line-height: 1.3;
+    
+letter-spacing: 1px;
+font-family: 'Playfair Display', serif;
+}
+
+.lifestyle .lifestyle_three{
+    width: 45%;
+   float: left;
+}
+.lifestyle .lifestyle_four{
+    width: 45%;
+   float: right;
+}
+
+.lifestyle_three img, .lifestyle_four img{
+    width: 100%;
+
+}
+.lifestyle_three h6, .lifestyle_four h6{
+    
+color: #b4ad9e;
+    
+font-size: 14px;
+    
+text-transform: uppercase;
+    
+margin: 20px 0;
+font-family: 'Playfair Display', serif;
+}
+.lifestyle_three h1, .lifestyle_four h1{
+    
+font-size: 30px;
+    
+text-transform: capitalize;
+    
+color: #626262;
+    
+margin-bottom: 15px;
+font-family: 'Playfair Display', serif;
+}
+.lifestyle_three p, .lifestyle_four p{
+    
+font-size: 14px;
+    
+color: #626262;
+    
+line-height: 1.3;
+    
+letter-spacing: 1px;
+font-family: 'Playfair Display', serif;
+}
+
 /*lifestyle css end here*/
+
+/*newsletter css start here*/
+
+.newsletter{
+    padding: 50px 0;
+    background: #f5f4f2;
+}
+.news{
+
+width: 30%;
+
+margin: auto;
+}
+.news h1{
+
+font-size: 30px;
+
+text-transform: capitalize;
+
+margin-bottom: 60px;
+font-family: 'Playfair Display', serif;
+color: #626262;
+}
+.news input{
+    
+border: none;
+    
+background: transparent;
+    
+border-bottom: 1px solid #000;
+    
+width: 100%;
+outline: none;
+}
+.news input::placeholder{
+    font-size: 14px;
+    color: #626262;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+
+
+/*newsletter css end here*/
