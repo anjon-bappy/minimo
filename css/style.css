@@ -82,3 +82,14 @@ margin-bottom: 20px;
     margin-bottom: 30px;
 }
 /*photodiary css start here*/
+
+/*lifestyle css start here*/
+
+.lifestyle{
+    width: 80%;
+    margin: auto;
+}
+.lifestyle lifestyle_one{
+    background-color: yellow;
+}
+/*lifestyle css end here*/
